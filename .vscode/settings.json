@@ -1,0 +1,33 @@
+{
+  //[CONVENTIONAL BRANCHES]
+  "conventional-branch.format": "{Type}/{Branch}",
+  "conventional-branch.type": [
+    "feature",
+    "enhancement",
+    "fix",
+    "hotfix",
+    "refactor",
+    "restructure",
+    "cleanup",
+    "docs",
+    "test",
+    "chore",
+    "config",
+    "build",
+    "ci",
+    "style",
+    "ux",
+    "spike",
+    "release",
+    "deprecate",
+    "remove"
+  ],
+  "conventional-branch.branchNameSeparator": "-",
+  "conventional-branch.maxBranchNameLength": 50,
+  "conventional-branch.minBranchNameLength": 5,
+  "conventional-branch.forceBranchNameLowerCase": true,
+  "conventional-branch.removeBranchNameWhiteSpace": true,
+
+  //[ESLINT]
+  "eslint.useFlatConfig": true
+}
