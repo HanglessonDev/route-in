@@ -18,6 +18,8 @@ logs
 .fleet
 .idea
 .rar
+/data
+**/here
 
 # Local env files
 .env
