@@ -24,7 +24,7 @@
   ],
   "conventional-branch.branchNameSeparator": "-",
   "conventional-branch.maxBranchNameLength": 50,
-  "conventional-branch.minBranchNameLength": 5,
+  "conventional-branch.minBranchNameLength": 3,
   "conventional-branch.forceBranchNameLowerCase": true,
   "conventional-branch.removeBranchNameWhiteSpace": true,
 

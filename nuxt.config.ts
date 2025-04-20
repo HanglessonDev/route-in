@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/tailwindcss',
+    '@vueuse/nuxt',
   ],
   app: {
     head: {
@@ -20,6 +21,12 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'pt-BR',
       },
+    },
+  },
+  runtimeConfig: {
+    hereApiKey: process.env.HERE_API_KEY, // Accessible only on the server
+    public: {
+      hereApiKey: process.env.HERE_API_KEY,
     },
   },
   tailwindcss: {
@@ -35,15 +42,15 @@ export default defineNuxtConfig({
       },
       defaults: {
         VTextField: {
-          variant: 'outlined',
+          variant: 'underlined',
           density: 'compact',
         },
         VSelect: {
-          variant: 'outlined',
+          variant: 'underlined',
           density: 'compact',
         },
         VAutocomplete: {
-          variant: 'outlined',
+          variant: 'underlined',
           density: 'compact',
         },
       },
