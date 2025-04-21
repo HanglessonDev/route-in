@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
+  ssr: false,
 
   modules: [
     '@nuxt/eslint',
@@ -15,9 +16,10 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
   ],
+  plugins: ['~/plugins/dexie.client.ts'],
   app: {
     head: {
-      title: 'Route-in',
+      title: 'Route-in App',
       htmlAttrs: {
         lang: 'pt-BR',
       },

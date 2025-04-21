@@ -29,5 +29,11 @@
   "conventional-branch.removeBranchNameWhiteSpace": true,
 
   //[ESLINT]
-  "eslint.useFlatConfig": true
+  "eslint.useFlatConfig": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }
