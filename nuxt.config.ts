@@ -14,8 +14,9 @@ export default defineNuxtConfig({
 		'pinia-plugin-persistedstate/nuxt',
 		'@nuxtjs/tailwindcss',
 		'@vueuse/nuxt',
+		'@nuxt/eslint',
 	],
-	components: [{ path: '~/modules/offlineDB/components', pathPrefix: false }],
+	// components: [{ path: '~/modules/offlineDB/components', pathPrefix: false }],
 	plugins: ['~/plugins/dexie.client.ts'],
 	app: {
 		head: {
