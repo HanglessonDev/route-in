@@ -126,6 +126,8 @@ const drawer = ref(false);
         <slot />
       </v-container>
     </v-main>
+    <!-- Notificação -->
+    <NotificationSystem />
 
     <!-- Footer -->
     <v-footer
